@@ -8,10 +8,10 @@ if (localStorage.getItem('employees')) {
 } else {
     employees = [
         { id: '12345678', name: 'Keoni Sanchez', extension: '1001', email: 'keoni@lumon.com', department: 'Engineering' },
-        { id: '23456789', name: 'Joe Kuh', extension: '1002', email: 'joe@example.com', department: 'Marketing' },
-        { id: '34567890', name: 'Carol Lina', extension: '1003', email: 'carol@example.com', department: 'Sales' },
-        { id: '45678901', name: 'Ray Zyn', extension: '1004', email: 'ray@example.com', department: 'QA' },
-        { id: '56789012', name: 'Eve Inly', extension: '1005', email: 'eve@example.com', department: 'Administrative' }
+        { id: '23456789', name: 'Joe Kuh', extension: '1002', email: 'joe@lumon.com', department: 'Marketing' },
+        { id: '34567890', name: 'Carol Lina', extension: '1003', email: 'carol@lumon.com', department: 'Sales' },
+        { id: '45678901', name: 'Ray Zyn', extension: '1004', email: 'ray@lumon.com', department: 'QA' },
+        { id: '56789012', name: 'Eve Inly', extension: '1005', email: 'eve@lumon.com', department: 'Administrative' }
     ];
     localStorage.setItem('employees', JSON.stringify(employees))
 }
